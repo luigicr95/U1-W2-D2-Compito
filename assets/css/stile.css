@@ -20,6 +20,7 @@ hr {
 /* HEADER */
 header {
   position: sticky;
+  z-index: 10;
   top: 0;
   background: rgb(0, 160, 198);
   background: linear-gradient(
@@ -88,6 +89,15 @@ h1 {
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
 }
+
+.html-image {
+  float: left;
+  margin-right: 20px;
+  padding: 3%;
+  border: 4px solid #00a0c6;
+  outline: 4px solid #a02571;
+}
+
 p,
 address,
 ul,
@@ -154,6 +164,19 @@ tbody tr:last-of-type {
 }
 
 /* FORM */
+
+.form {
+  position: relative;
+}
+
+section h2 {
+  position: absolute;
+  top: -30px;
+  background-color: grey;
+  padding: 0 5px;
+  margin-bottom: 50px;
+  text-align: cent;
+}
 
 input {
   padding: 5px;
