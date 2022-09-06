@@ -73,6 +73,7 @@ section {
   padding: 1em;
   margin-bottom: 2em;
 }
+
 section h2 {
   text-align: center;
   color: #333;
@@ -80,6 +81,11 @@ section h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1em;
+  position: absolute;
+  top: -30px;
+  background-color: grey;
+  padding: 0 5px;
+  box-shadow: 2px 2px 3px #333;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -167,15 +173,7 @@ tbody tr:last-of-type {
 
 .form {
   position: relative;
-}
-
-section h2 {
-  position: absolute;
-  top: -30px;
-  background-color: grey;
-  padding: 0 5px;
-  margin-bottom: 50px;
-  text-align: cent;
+  margin-bottom: 10px;
 }
 
 input {
