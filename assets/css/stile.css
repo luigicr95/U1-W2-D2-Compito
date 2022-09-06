@@ -241,10 +241,13 @@ footer a {
   display: block;
 }
 
-.top a {
+.top {
   position: fixed;
   bottom: 10vh;
   right: 0px;
   font-size: 300%;
+}
+
+.top a {
   color: #a02571;
 }
