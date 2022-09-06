@@ -57,7 +57,7 @@ header nav li a::before {
 }
 
 header nav li {
-  display: inline;
+  display: inline-block;
   margin-right: 10px;
 }
 
@@ -84,7 +84,7 @@ section h2 {
   position: absolute;
   top: -30px;
   background-color: grey;
-  padding: 0 5px;
+  padding: 0 50px;
   box-shadow: 2px 2px 3px #333;
 }
 
@@ -173,7 +173,7 @@ tbody tr:last-of-type {
 
 .form {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 input {
