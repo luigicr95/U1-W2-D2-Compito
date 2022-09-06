@@ -227,3 +227,24 @@ footer {
 footer a {
   color: fuchsia;
 }
+
+/*BOTTONI*/
+
+.facebook {
+  position: fixed;
+  bottom: 30vh;
+  right: 0px;
+  font-size: 300%;
+}
+
+.facebook a {
+  display: block;
+}
+
+.top a {
+  position: fixed;
+  bottom: 10vh;
+  right: 0px;
+  font-size: 300%;
+  color: #a02571;
+}
